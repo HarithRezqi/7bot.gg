@@ -1,0 +1,161 @@
+<!-- 
+	Make by Rezqi's Project 2022
+	only landing page.
+	start from 2$ - custom$
+	Github: https://github.com/Vins2106/Free-Discord-Bot-Website
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>7'Bot Dashboard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- you can change the website icon by change the href link -->
+	<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1047905422331347070/1048135452269486110/20221202_151518.png">
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="./css/coloring.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
+	<link rel="stylesheet" type="text/css" href="./css/shadow.css">
+	<link rel="stylesheet" type="text/css" href="./css/loading.css">
+	<!-- css end -->
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="on">
+	<div class="loading" id="loading-box">
+		<div class="loading-item"><div class="loading-progress"></div></div>
+	</div>
+
+	<main class="main">
+		<!-- navbar -->
+		<div class="navbar">
+			<div class="container">
+				<div class="navbar-nav">
+					<div class="navbar-brand">
+						<!-- You can change it with Image if you want. -->
+						<span class="navbar-brand-txt"><a class="txt-bold type-1" href="/">7'Bot</a></span>
+					</div>
+
+					<span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)" class="fas fa-bars"></i></span>
+
+					<div class="navs" id="navs">
+						<!-- You can change the href value and the text value -->
+						<div class="navs-item notbtn"><a href="https://theneoldmy.blogspot.com/2022/12/7bot-command.html" class="txt-uppercase">Commands</a></div>
+						<div class="navs-item notbtn"><a href="#" class="txt-uppercase">Docs</a></div>
+						<div class="navs-item notbtn"><a href=" https://discord.gg/p7Mr6ysE5B" class="txt-uppercase">Support</a></div>
+						<div class="navs-item notbtn"><a href="https://discord.com/api/oauth2/authorize?client_id=1047434156449206312&permissions=8&scope=bot" class="txt-uppercase">Invite</a></div>
+						<div class="navs-item"><a href="https://discord.gg/hzJUF7KHgq"><button class="btn txt-uppercase shadow-sm">Rezqi's Project</button></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- navbar end -->		
+
+		<!-- jumbotron -->
+		<div class="jumbotron">
+			<div class="container">
+				<div class="jumbotron-items">
+					<div class="jumbotron-item">
+						<span class="jumbotron-t">Why 7'Bot?</span>
+						<p class="jumbotron-d">7'Bot is one of the boats created by Harith Rezqi for various uses. Like a welcome massage set, listen to music and more.</p>
+						<div class="jumbotron-buttons">
+							<button class="btn" onclick="location.href='#features'">Features</button>
+							<button class="btn blue" onclick="location.href='https://discord.com/api/oauth2/authorize?client_id=1047434156449206312&permissions=8&scope=bot'">Invite</button>
+						</div>
+					</div>
+					<div class="jumbotron-item">
+						<img src="https://cdn.discordapp.com/attachments/1047905422331347070/1048135452269486110/20221202_151518.png" alt="image">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- jumbotron end -->
+		<span class="scroll-down"><i class="fas fa-arrow-down"></i></span>
+	</main>
+
+	<!-- features -->
+	<div class="features-box">
+		<h1 class="features-t" id="features">7'BOT FEATURE.</h1>
+		<div class="container">
+			<div class="features">
+				<div class="feature">
+					<img class="feature-img" src="./img/feature1.svg"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">ADMIN COMMAND</h2>
+						<p class="feature-info-d">emojiadd, add-these, announce, bug, addrole, ban, purge, hackban, kick, lock, mute, removerole, resetwarns, setnick, setmodlog, slowmode, unlock, unmute, voicekick, warn, warnings, setwelcome , nuke</p>
+					</div>
+				</div>
+				<div class="feature">
+					<img class="feature-img" src="./img/feature2.svg"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">MUSIC</h2>
+						<p class="feature-info-d">loop, clear, disable-loop, join, leave, nowplaying, play, playlist, pause, queue, resume, shuffle, skip, stop, volume</p>
+					</div>
+				</div>
+				<div class="feature">
+					<img class="feature-img" src="./img/feature3.svg"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">ECONOMY</h2>
+						<p class="feature-info-d">balance, daily, fish, addmoney, beg, buy, deposit, leaderboard, pay, removemoney, roulette, sell, slots, shop, coins-system, withdraw, work</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- features end -->
+
+	<!-- services -->
+	<div class="services-box">
+		<h1 class="services-t" id="services">We currently services...</h1>
+		<div class="container">
+			<div class="services">
+				<div class="service">
+					<span><i class="fas fa-server"></i> 100.000 servers</span>
+				</div>
+				<div class="service">
+					<span><i class="fas fa-users"></i> 100.000.000 users</span>
+				</div>
+				<div class="service">
+					<span><i class="fas fa-hashtag"></i> 190.000 channels</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- services end -->
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-items">
+				<div class="footer-item">
+					<span>Partners</span>
+					<ul class="footer-ul">
+						<li><a href="https://discord.gg/hzJUF7KHgq">Rezqi's Project</a></li>
+						<li><a href="https://discord.gg/bs7d3uEzAc">Tokyo City Roleplay</a></li>
+						<li><a href="https://discord.gg/7pd6z6fp9b">Pennang Drift</a></li>
+						<li><a href="https://discord.gg/c6QzpzaCcf">Malaysia Venteran Roleplay</a></li>
+						<li><a href=" https://carl.gg/">Carl-Bot</a></li>
+					</ul>
+				</div>				
+				<div class="footer-item">
+					<span>Our Owner Link</span>
+					<ul class="footer-ul">
+						<li><a href="https://discord.gg/hzJUF7KHgq">Discord</a></li>
+						<li><a href="https://www.facebook.com/profile.php?id=100086161110019">Facebook</a></li>
+						<li><a href="https://instagram.com/harithrezqi">Instagram</a></li>
+						<li><a href=" https://twitter.com/harithrezqi">Twitter</a></li>
+						<li><a href="https://www.youtube.com/@HarithRezqi">Youtube</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
